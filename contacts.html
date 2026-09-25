@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact — Derick's Portfolio</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">Derick<span class="logo-dot">.</span></div>
+        <ul class="navbar-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contacts.html" class="active">Contact Me</a></li>
+        </ul>
+    </div>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+       
+        <h1>Let's get in touch.</h1>
+        <p class="lede">
+            Have a role, project, or question in mind? Send a message below or
+            reach out directly.
+        </p>
+    </section>
+    <hr>
+
+    <!-- CONTACT: form + info -->
+    <section class="contact-wrap">
+
+        <form class="contact-form" action="mailto:derick@example.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="What's this about?">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Tell me a bit more..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+
+        <aside class="contact-side">
+            <div class="info-card">
+                <p class="info-title">direct contact</p>
+                <div class="contact-link-row">
+                    <span class="info-label">email</span>
+                    <a href="mailto:derickmunji375@gmail.com" target="_blank">derickmunji375@gmail.com</a>
+                </div>
+                <div class="contact-link-row">
+                    <span class="info-label">github</span>
+                    <a href="https://github.com/derickmunji375-create" target="_blank">Github</a>
+                </div>
+                <div class="contact-link-row">
+                    <span class="info-label">linkedin</span>
+                    <a href="#" target="_blank">linkedin.com/in/derick</a>
+                </div>
+                <div class="contact-link-row">
+                    <span class="info-label">phone</span>
+                    <a href="tel:+254117437813" target="_blank">+254 117 437 813</a>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <p class="info-title">availability</p>
+                <div class="info-row">
+                    <span class="info-label">status</span>
+                    <span class="info-value">Open to work</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">response</span>
+                    <span class="info-value">immediate</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">based in</span>
+                    <span class="info-value">Kenya</span>
+                </div>
+            </div>
+        </aside>
+
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Derick. Built line by line.</p>
+        <div class="footer-links">
+            <a href="mailto:derick@example.com" class="footer-link">Email</a>
+            <a href="#" class="footer-link">GitHub</a>
+            <a href="#" class="footer-link">LinkedIn</a>
+        </div>
+    </footer>
+
+</body>
+</html>
