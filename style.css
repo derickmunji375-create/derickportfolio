@@ -177,6 +177,27 @@ p {
     border-color: var(--ink);
 }
 
+
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 24px;
+    background-color: #111827;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #374151;
+    transform: translateY(-2px);
+}
+
+
 /* ---------- Status card (uses grid internally for label/value rows) ---------- */
 .status-card {
     background-color: var(--ink);
